@@ -1,0 +1,139 @@
+#navbar{
+    display:flex;
+    align-items:center;
+}
+
+#circle{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    background-color:aqua;
+    margin-left:50px;
+}
+
+#name{
+    font-weight:900;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left:10px;
+}
+
+#prof{
+    margin-left:20px;
+    font-size:15px;
+    margin-right:700px;
+}
+
+#links{
+    display:flex;
+    justify-content:flex-end;
+    color:grey;
+}
+
+#landingpage{
+    flex-wrap:wrap;
+    display:flex;
+}
+
+#image{
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    background-image:url("https://sb.kaleidousercontent.com/67418/960x550/d1e78c2a25/individuals-a.png");
+    background-size:cover;
+    background-position:center;
+    position:absolute;
+    top:80px;
+    left:100px;
+}
+ #text{
+    position:absolute;
+    top:140px;
+    left:600px;
+    font-size: 50px;
+    font-weight: 900;
+ }
+
+ #a{
+    position:absolute;
+    top:200px;
+    left:600px;
+    font-weight:600;
+    font-size:25px;
+
+ }
+
+ p{
+    position:absolute;
+    top:220px;
+    left:600px;
+    font-size:20px;
+    color:grey;
+ }
+
+ .circle{
+    height:150px;
+    width:150px;
+    border: 2px solid black;
+    border-radius:50%;
+
+ }
+
+ 
+ #end{
+    width:100%;
+    display: flex;
+    justify-content:center;
+ }
+
+ #re{
+    background-color:orange;
+    font-size:20px;
+    font-weight:700;
+    position:absolute;
+    top:400px;
+    left:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+ }
+
+ #se{
+    background-color:greenyellow;
+    font-size:20px;
+    font-weight:700;
+    position:absolute;
+    top:400px;
+    left:700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+ }
+
+ #out{
+    background-color:aqua;
+    font-size:20px;
+    font-weight:700;
+    position:absolute;
+    top:400px;
+    left:900px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+ }
+
+ #per{
+    background-color:yellow;
+    font-size:20px;
+    font-weight:700;
+    position:absolute;
+    top:400px;
+    left:1100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+ }
