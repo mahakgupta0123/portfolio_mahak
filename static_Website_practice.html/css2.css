@@ -17,11 +17,10 @@ nav{
     list-style:none;
     position:relative;
     bottom: 20px;
-    left:450px;
+    left:300px;
 }
 .list li{
     margin:10px;
-    
     cursor: pointer;
 }
 
@@ -38,6 +37,7 @@ li:hover{
     text-align:center;
     position:relative;
     bottom:350px;
+    left:130px;
 }
 
 section h1{
@@ -77,10 +77,10 @@ button:hover{
     width:1200px;
 }
 .foot div{
-    margin:50px;
+    margin:20px;
     position:relative;
     bottom:300px;
-    left:100px;
+    left:50px;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
@@ -95,4 +95,14 @@ button:hover{
 
 .foot div p{
     text-align:center;
+}
+
+@media(max-width:400px){
+    .list ul {
+        flex-wrap:wrap;
+    }
+    .foot{
+        flex-wrap:wrap;
+        height:100px
+    }
 }
