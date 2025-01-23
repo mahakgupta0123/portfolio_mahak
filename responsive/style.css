@@ -1,0 +1,28 @@
+.main{
+    height:100%;
+    width:100%;
+    position:relative;
+}
+
+.nav{
+    height:100px;
+    width:98%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0 1vw;
+   border-bottom:2px solid black;
+}
+
+.menu{
+    display:flex;
+    
+    gap:4vw;
+}
+.nav h2{
+    font-size:2vw;
+}
+
+.menu h5{
+    font-size:1vw;
+}
