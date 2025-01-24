@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
 .main{
     height:100%;
     width:100%;
@@ -5,13 +9,13 @@
 }
 
 .nav{
-    height:100px;
-    width:98%;
+    height:40px;
+    width:100%;
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding: 0 1vw;
-   border-bottom:2px solid black;
+    border-bottom:2px solid black;
 }
 
 .menu{
@@ -25,4 +29,26 @@
 
 .menu h5{
     font-size:1vw;
+}
+
+@media (max-width:600px){
+    .nav h2{
+        font-size:4vw;
+    }
+    
+    .menu h5{
+        font-size:2vw;
+    }
+
+    h5{
+        display:none;
+    }
+
+    .nav h2 div{
+        padding:4vw;
+    }
+
+    .menu i{
+        display:block;
+    }
 }
