@@ -6,6 +6,7 @@
     height:100%;
     width:100%;
     position:relative;
+    display:flex;
 }
 
 .nav{
@@ -14,30 +15,33 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding: 0 1vw;
     border-bottom:2px solid black;
+    padding:0 2vw;
+    overflow:hidden;
 }
-
 .menu{
     display:flex;
-    
-    gap:4vw;
+     gap:3vw;
 }
 .nav h2{
-    font-size:2vw;
+    font-size:2vmax;
 }
 
 .menu h5{
-    font-size:1vw;
+    font-size:1vmax;
+}
+
+.menu i{
+    display:none;
 }
 
 @media (max-width:600px){
     .nav h2{
-        font-size:4vw;
+        font-size:4vmax;
     }
     
     .menu h5{
-        font-size:2vw;
+        font-size:2vmax;
     }
 
     h5{
