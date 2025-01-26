@@ -34,6 +34,13 @@
 .menu i{
     display:none;
 }
+/* .right, .left{
+    height:100px;
+    width:100px;
+    background-color: rgba(163, 109, 43, 0.53);
+    position:absolute;
+
+} */
 
 @media (max-width:600px){
     .nav h2{
