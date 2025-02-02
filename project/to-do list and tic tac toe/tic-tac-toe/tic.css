@@ -1,0 +1,40 @@
+*{
+    text-align:center;
+}
+
+button{
+    background-color:bisque;
+    border:none;
+    width:100px;
+    padding: 1em;
+}
+
+.one div{
+    height:60px;
+    width:60px;
+    border:2px solid black;
+}
+
+.two div{
+    height:60px;
+    width:60px;
+    border:2px solid black;
+}
+.three div{
+    height:60px;
+    width:60px;
+    border:2px solid black;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    margin:30px;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+    border:1px solid black;
+}
