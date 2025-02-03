@@ -34,13 +34,14 @@
 .menu i{
     display:none;
 }
-/* .right, .left{
-    height:100px;
-    width:100px;
-    background-color: rgba(163, 109, 43, 0.53);
+.right, .left{
+    height:calc(100vh - 40px);
+    width:100%;
+    /* background-color: rgba(163, 109, 43, 0.53); */
     position:absolute;
-
-} */
+    margin-top:2vh;
+    overflow:hidden;
+}
 
 @media (max-width:600px){
     .nav h2{
