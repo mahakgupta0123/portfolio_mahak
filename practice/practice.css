@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    position:relative;
+}
+
+.navbar{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:antiquewhite;
+    justify-content:space-between;
+    padding-left:20px;
+    padding-right:20px;
+    align-items: center;
+    border:1px solid brown;
+}
+
+.list ul{
+    display:flex;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: center;  
+    font-weight:800;
+}
+
+
+
+ul li{
+    margin:7px;
+    list-style: none;
+    padding:4px;
+}
+
+ul button{
+    padding:10px;
+    margin:0;
+    background-color: brown;
+    color:white;
+    border-right:6px solid black;
+    border-bottom:6px solid black;
+    border-radius:5px;
+}
+
+.list ul :hover{
+    text-decoration:underline;
+}
+
+ul button:hover{
+    text-decoration:none;
+    border-bottom:none;
+    border-right:none;
+}
+
