@@ -2,6 +2,8 @@ body{
     margin:0;
     padding:0;
     position:relative;
+    height:100%;
+    width:100%;
 }
 
 .navbar{
@@ -22,8 +24,6 @@ body{
     justify-content: center;  
     font-weight:800;
 }
-
-
 
 ul li{
     margin:7px;
@@ -51,3 +51,13 @@ ul button:hover{
     border-right:none;
 }
 
+.carousel{
+    height:80vh;
+    width:100vw;
+    display:flex;
+    overflow:hidden;
+}
+
+/* .carousel img{
+    transition:2ms ease-in infinte;
+} */
