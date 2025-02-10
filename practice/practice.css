@@ -58,6 +58,21 @@ ul button:hover{
     overflow:hidden;
 }
 
-/* .carousel img{
-    transition:2ms ease-in infinte;
-} */
+.img{
+    width:100vw;
+    flex-shrink: 0;
+    animation: slide 12s infinite;
+}
+
+@keyframes slide {
+    0%, 33.33% {
+        transform: translateX(0);
+    }
+    33.34%, 66.66% {
+        transform: translateX(-100%);
+    }
+    66.67%, 100% {
+        transform: translateX(-200%);
+    }
+}
+
