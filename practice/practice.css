@@ -107,9 +107,21 @@ ul button:hover{
     border-right:6px solid black;
     border-bottom:6px solid black;
     border-radius:5px;
+    animation: motion 12s infinite;
 }
 
 .card button:hover{
     border-right:none;
     border-bottom:none;
+    
+}
+
+@keyframes motion{
+    0%{
+        border-right:2px solid black;
+    }
+
+    20%{
+        border-right:10px solid purple;
+    }
 }
