@@ -8,4 +8,5 @@ btn.addEventListener("click",()=>{
 
 btn1.addEventListener("click",()=>{
     alert("btn2 is clicked");
+    console.log("btn clicked")
 })
