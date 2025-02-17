@@ -10,3 +10,6 @@ btn1.addEventListener("click",()=>{
     alert("btn2 is clicked");
     console.log("btn clicked")
 })
+// let h1=document.createElement("h1");
+// h1.innerText=("hello");
+// document.body.appendChild(h1);
