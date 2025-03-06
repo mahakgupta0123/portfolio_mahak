@@ -37,10 +37,21 @@
 .right, .left{
     height:calc(100vh - 40px);
     width:100%;
-    /* background-color: rgba(163, 109, 43, 0.53); */
+    background-color: rgba(163, 109, 43, 0.53);
     position:absolute;
-    margin-top:2vh;
+    /* margin-top:2vh; */
     overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.left button{
+    background-color: white;
+    color:black;
+    border:2px solid black;
+    padding:10px;
+    width:100px;
+
 }
 
 @media (max-width:600px){
